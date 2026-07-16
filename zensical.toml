@@ -1,6 +1,7 @@
 [project]
 site_name = "Matematiikan kirja"
 site_author = "Claude Fable"
+site_url = "https://otvainio.github.io/math-book/"
 copyright = "Kirjoittanut Claude (Fable) Otso Vainiolle opiskelua varten"
 
 nav = [
