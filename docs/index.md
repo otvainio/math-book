@@ -12,7 +12,7 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 
 - **Kynä käteen.** Matematiikkaa ei voi lukea kuin romaania. Kun kirjassa lukee "tarkista", tarkista.
 - **Todistukset ovat sisältö**, eivät koristetta. Jos todistus tuntuu raskaalta, se on merkki että jotain uutta on oppimassa.
-- **Harjoitukset** ovat jokaisen luvun lopussa kolmessa tasossa: ★ (rutiini), ★★ (vaatii ajattelua), ★★★ (haastava). Vihjeet ja vastaukset ovat luvun lopussa — mutta katso niitä vasta yritettyäsi.
+- **Harjoitukset** ovat jokaisen luvun lopussa kolmessa tasossa: ★ (rutiini), ★★ (vaatii ajattelua), ★★★ (haastava). Jokaisen tehtävän alla on piilotettu **Vihje** ja täydellinen **Vastaus** — ne aukeavat klikkaamalla. Katso niitä vasta yritettyäsi itse. Kirja on tehty niin, että voit opiskella sen kokonaan yksin: mitään ei jää auki.
 - Lukuja ei ole pakko lukea järjestyksessä, mutta Osa I kannattaa lukea ensin: se antaa kielen, jolla loppu kirja puhuu.
 
 ## Kirjan kartta
@@ -20,7 +20,7 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 **Osa I — Perustukset**
 
 1. Todistuksen taito ✓
-2. Joukot ja funktiot *(tulossa)*
+2. Joukot ja funktiot ✓
 3. Induktio ja rekursio *(tulossa)*
 
 **Osa II — Luvut**

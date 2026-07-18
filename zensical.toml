@@ -8,6 +8,7 @@ nav = [
   { "Esipuhe" = "index.md" },
   { "Osa I: Perustukset" = [
       { "1. Todistuksen taito" = "01-todistuksen-taito.md" },
+      { "2. Joukot ja funktiot" = "02-joukot-ja-funktiot.md" },
   ]},
 ]
 

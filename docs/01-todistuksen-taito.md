@@ -238,53 +238,176 @@ Vastaesimerkin etsiminen ja todistuksen yrittäminen ovat saman prosessin kaksi 
 
 ## Harjoitukset
 
+Yritä jokaista tehtävää itse ennen kuin avaat vihjeen tai vastauksen. Vihje antaa suunnan; vastaus näyttää koko ratkaisun. Molemmat avautuvat klikkaamalla.
+
+---
+
 **1.1 (★)** Todista suoraan: kahden parittoman luvun summa on parillinen.
+
+??? tip "Vihje"
+    Kirjoita luvut muodossa $2k+1$ ja $2m+1$ — huomaa, että tarvitset *eri* kirjaimet, koska luvut voivat olla erisuuret.
+
+??? success "Vastaus"
+    Olkoot luvut parittomia: $2k+1$ ja $2m+1$, missä $k$ ja $m$ ovat kokonaislukuja. Summa on
+
+    $$(2k+1) + (2m+1) = 2k + 2m + 2 = 2(k+m+1).$$
+
+    Koska $k+m+1$ on kokonaisluku, summa on muotoa $2 \cdot (\text{kokonaisluku})$, eli parillinen. $\blacksquare$
+
+---
 
 **1.2 (★)** Todista suoraan: jos $n$ on parillinen, niin $n^2$ on jaollinen neljällä.
 
+??? tip "Vihje"
+    Kirjoita $n = 2k$ ja korota neliöön.
+
+??? success "Vastaus"
+    Oletetaan $n$ parilliseksi, eli $n = 2k$ jollakin kokonaisluvulla $k$. Silloin
+
+    $$n^2 = (2k)^2 = 4k^2 = 4 \cdot k^2.$$
+
+    Koska $k^2$ on kokonaisluku, $n^2$ on jaollinen neljällä. $\blacksquare$
+
+---
+
 **1.3 (★★)** Todista kontrapositiolla: jos $n^2$ on jaollinen kolmella, niin $n$ on jaollinen kolmella. *(Muista: jos $n$ ei ole jaollinen kolmella, se on muotoa $3k+1$ tai $3k+2$.)*
+
+??? tip "Vihje"
+    Kontrapositio: *jos $3 \nmid n$, niin $3 \nmid n^2$.* Laske $(3k+1)^2$ ja $(3k+2)^2$ ja katso kummankin jakojäännös kolmella.
+
+??? success "Vastaus"
+    Todistetaan kontrapositio: *jos $n$ ei ole jaollinen kolmella, niin $n^2$ ei ole jaollinen kolmella.*
+
+    Jos $3 \nmid n$, niin $n$ on muotoa $3k+1$ tai $3k+2$. Lasketaan neliöt:
+
+    $$(3k+1)^2 = 9k^2 + 6k + 1 = 3(3k^2 + 2k) + 1,$$
+    $$(3k+2)^2 = 9k^2 + 12k + 4 = 3(3k^2 + 4k + 1) + 1.$$
+
+    Molemmissa jakojäännös kolmella on $1$, joten $n^2$ ei ole jaollinen kolmella. Kontrapositio on todistettu, joten alkuperäinen väite pätee. $\blacksquare$
+
+---
 
 **1.4 (★★)** Todista ristiriidalla: $\sqrt{3}$ on irrationaalinen. *(Käytä tehtävää 1.3 samassa roolissa kuin Lause 1.3 oli $\sqrt2$:n todistuksessa.)*
 
+??? tip "Vihje"
+    Oleta $\sqrt3 = a/b$ supistetussa muodossa. Johda $a^2 = 3b^2$, päättele tehtävän 1.3 avulla että $3 \mid a$, ja jatka kuten $\sqrt2$:n todistuksessa.
+
+??? success "Vastaus"
+    Oletetaan vastakohta: $\sqrt{3} = \dfrac{a}{b}$, missä $\operatorname{syt}(a,b) = 1$. Korotetaan neliöön:
+
+    $$3 = \frac{a^2}{b^2} \quad\Longrightarrow\quad a^2 = 3b^2.$$
+
+    Siis $a^2$ on jaollinen kolmella, ja tehtävän 1.3 nojalla myös $a$ on jaollinen kolmella. Kirjoitetaan $a = 3k$:
+
+    $$(3k)^2 = 3b^2 \quad\Longrightarrow\quad 9k^2 = 3b^2 \quad\Longrightarrow\quad b^2 = 3k^2.$$
+
+    Nyt myös $b^2$ on jaollinen kolmella, joten $b$ on jaollinen kolmella. Mutta silloin sekä $a$ että $b$ ovat jaollisia kolmella — ristiriita oletuksen $\operatorname{syt}(a,b) = 1$ kanssa. Siis $\sqrt{3}$ on irrationaalinen. $\blacksquare$
+
+---
+
 **1.5 (★★)** Todista induktiolla: $1^2 + 2^2 + \cdots + n^2 = \dfrac{n(n+1)(2n+1)}{6}$ kaikilla $n \geq 1$.
+
+??? tip "Vihje"
+    Induktioaskeleessa lisää $(n+1)^2$ induktio-oletukseen ja ota $(n+1)$ yhteiseksi tekijäksi. Tavoite on $\dfrac{(n+1)(n+2)(2n+3)}{6}$.
+
+??? success "Vastaus"
+    *Perusaskel.* Kun $n = 1$: vasen puoli $= 1^2 = 1$, oikea puoli $= \dfrac{1 \cdot 2 \cdot 3}{6} = 1$. Täsmää.
+
+    *Induktioaskel.* Oletetaan, että kaava pätee luvulla $n$. Lisätään $(n+1)^2$:
+
+    $$\underbrace{1^2 + \cdots + n^2}_{=\,\frac{n(n+1)(2n+1)}{6}} + (n+1)^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2.$$
+
+    Otetaan $(n+1)$ yhteiseksi tekijäksi ja lasketaan yhteinen nimittäjä:
+
+    $$= (n+1)\left(\frac{n(2n+1)}{6} + (n+1)\right) = (n+1)\cdot\frac{n(2n+1) + 6(n+1)}{6} = (n+1)\cdot\frac{2n^2 + 7n + 6}{6}.$$
+
+    Jaetaan tekijöihin $2n^2 + 7n + 6 = (n+2)(2n+3)$:
+
+    $$= \frac{(n+1)(n+2)(2n+3)}{6}.$$
+
+    Tämä on kaava sijoituksella $n \to n+1$. Induktio on valmis. $\blacksquare$
+
+---
 
 **1.6 (★★)** Todista induktiolla: $n! > 2^n$ kaikilla $n \geq 4$.
 
+??? tip "Vihje"
+    Perusaskel on $n = 4$ (ei $n=1$ — tarkista miksi väite ei päde pienemmillä). Induktioaskeleessa: $(n+1)! = (n+1)\cdot n!$, ja $n+1 > 2$.
+
+??? success "Vastaus"
+    *Perusaskel.* $n = 4$: $\;4! = 24 > 16 = 2^4$. ✓ (Pienemmillä väite ei päde: $3! = 6 < 8 = 2^3$.)
+
+    *Induktioaskel.* Oletetaan $n! > 2^n$ jollakin $n \geq 4$. Silloin
+
+    $$(n+1)! = (n+1)\cdot n! > (n+1)\cdot 2^n > 2 \cdot 2^n = 2^{n+1},$$
+
+    missä keskimmäinen askel käyttää induktio-oletusta ja viimeinen sitä, että $n+1 \geq 5 > 2$. Induktio on valmis. $\blacksquare$
+
+---
+
 **1.7 (★★)** Kaada väite vastaesimerkillä: "jos $n$ on alkuluku, niin $2^n - 1$ on alkuluku."
+
+??? tip "Vihje"
+    Kokeile alkulukuja järjestyksessä: $2, 3, 5, 7, 11, \ldots$ Neljä ensimmäistä tottelevat väitettä — viides ei.
+
+??? success "Vastaus"
+    Kokeillaan: $2^2-1 = 3$, $2^3-1 = 7$, $2^5-1 = 31$, $2^7-1 = 127$ — kaikki alkulukuja, joten ansa on viritetty hyvin. Mutta
+
+    $$2^{11} - 1 = 2047 = 23 \times 89,$$
+
+    ja $11$ on alkuluku. Väite on siis epätosi. $\blacksquare$
+
+    *(Luvut $2^p - 1$ ovat ns. Mersennen lukuja. Vaikka $p$ olisi alkuluku, $2^p-1$ ei aina ole — tästä lisää luvussa 17.)*
+
+---
 
 **1.8 (★★★)** Todista ristiriidalla: ei ole olemassa suurinta rationaalilukua, joka on pienempi kuin $\sqrt{2}$. *(Oleta, että $q$ on sellainen, ja rakenna rationaaliluku, joka on aidosti lukujen $q$ ja $\sqrt2$ välissä.)*
 
+??? tip "Vihje"
+    Keskiarvo $\frac{q+\sqrt2}{2}$ on lukujen välissä, mutta se on irrationaalinen — ei kelpaa. Rakenna sen sijaan rationaaliluku $q + h$, missä $h > 0$ on niin pieni, että $(q+h)^2 < 2$. Silloin $q + h < \sqrt2$.
+
+??? success "Vastaus"
+    Oletetaan vastakohta: on olemassa suurin rationaaliluku $q$, jolle $q < \sqrt2$.
+
+    Ensin: voimme olettaa $q > 0$. (Jos $q \leq 0$, niin $1$ on rationaaliluku, $q < 1 < \sqrt2$, mikä on jo ristiriita sen kanssa että $q$ olisi suurin.) Koska $q < \sqrt2$ ja $q > 0$, pätee $q^2 < 2$.
+
+    Rakennetaan rationaaliluku, joka on aidosti lukujen $q$ ja $\sqrt2$ välissä. Merkitään $d = 2 - q^2 > 0$ (rationaalinen). Valitaan rationaaliluku
+
+    $$h = \frac{d}{2(2q+1)} > 0.$$
+
+    Huomataan, että $h < 1$ (koska $d = 2 - q^2 < 2 < 2(2q+1)$), joten $h^2 < h$. Arvioidaan:
+
+    $$(q+h)^2 = q^2 + 2qh + h^2 < q^2 + 2qh + h = q^2 + h(2q+1) = q^2 + \frac{d}{2} < q^2 + d = 2.$$
+
+    Siis $(q+h)^2 < 2$, joten $q + h < \sqrt2$. Mutta $q + h$ on rationaalinen ja $q + h > q$ — löysimme suuremman rationaaliluvun, joka on yhä pienempi kuin $\sqrt2$. Tämä on ristiriita sen kanssa, että $q$ oli suurin. Väite on todistettu. $\blacksquare$
+
+    *(Tämä on itse asiassa reaalilukujen "aukottomuuden" ydin: rationaalilukujen joukossa ei ole suurinta alkuainetta lähestyttäessä $\sqrt2$:ta. Luvussa 5 tämä idea muuttuu reaalilukujen täydellisyydeksi.)*
+
+---
+
 **1.9 (★★★)** Todista induktiolla **Bernoullin epäyhtälö**: $(1+x)^n \geq 1 + nx$ kaikilla $n \geq 1$, kun $x \geq -1$. *(Missä kohtaa tarvitset oletusta $x \geq -1$? Ilman sitä todistus kaatuu — löydä se askel.)*
 
----
+??? tip "Vihje"
+    Induktioaskeleessa kerrot induktio-oletuksen (epäyhtälön) puolittain luvulla $(1+x)$. Epäyhtälön suunta säilyy vain, jos kerroin $1+x \geq 0$ — eli $x \geq -1$.
 
-## Vihjeet
+??? success "Vastaus"
+    *Perusaskel.* $n = 1$: $(1+x)^1 = 1 + x \geq 1 + 1\cdot x$. Yhtäsuuruus, joten epäyhtälö pätee. ✓
 
-**1.1** Kirjoita luvut muodossa $2k+1$ ja $2m+1$ — huomaa, että tarvitset *eri* kirjaimet.
+    *Induktioaskel.* Oletetaan $(1+x)^n \geq 1 + nx$ jollakin $n \geq 1$. Kerrotaan molemmat puolet luvulla $(1+x)$. **Koska $x \geq -1$, on $1 + x \geq 0$, joten epäyhtälön suunta säilyy:**
 
-**1.3** Laske $(3k+1)^2$ ja $(3k+2)^2$ ja katso jakojäännös kolmella.
+    $$(1+x)^{n+1} = (1+x)^n (1+x) \geq (1 + nx)(1+x).$$
 
-**1.5** Induktioaskeleessa: lisää $(n+1)^2$ ja ota $(n+1)$ yhteiseksi tekijäksi.
+    Kerrotaan oikea puoli auki:
 
-**1.6** Perusaskel on $n=4$. Induktioaskeleessa: $(n+1)! = (n+1) \cdot n!$, ja $n+1 > 2$.
+    $$(1+nx)(1+x) = 1 + x + nx + nx^2 = 1 + (n+1)x + nx^2.$$
 
-**1.7** Kokeile alkulukuja järjestyksessä. Viides yrittämäsi kaataa väitteen.
+    Koska $nx^2 \geq 0$, saadaan
 
-**1.8** Lukujen $q$ ja $\sqrt2$ keskiarvo on suurempi kuin $q$ ja pienempi kuin $\sqrt2$ — mutta onko se rationaalinen? Jos ei suoraan, mikä muu luku kelpaisi?
+    $$(1+x)^{n+1} \geq 1 + (n+1)x + nx^2 \geq 1 + (n+1)x.$$
 
-**1.9** Induktioaskeleessa kerrot puolittain luvulla $(1+x)$. Epäyhtälön suunta säilyy vain, jos kerroin ei ole negatiivinen.
+    Induktio on valmis. $\blacksquare$
 
----
-
-## Vastauksia
-
-**1.1** $(2k+1) + (2m+1) = 2(k+m+1)$, parillinen. $\blacksquare$
-
-**1.3** $(3k+1)^2 = 3(3k^2+2k)+1$ ja $(3k+2)^2 = 3(3k^2+4k+1)+1$ — kumpikaan ei ole jaollinen kolmella. Siis jos $3 \nmid n$, niin $3 \nmid n^2$; kontrapositiona väite. $\blacksquare$
-
-**1.7** $n = 11$: $2^{11} - 1 = 2047 = 23 \times 89$. (Luvut $2^2-1=3$, $2^3-1=7$, $2^5-1=31$ ja $2^7-1=127$ ovat kaikki alkulukuja — ansa oli viritetty hyvin.)
-
-Muiden tehtävien ratkaisut käydään läpi yhdessä, kun olet yrittänyt niitä.
+    **Missä $x \geq -1$ tarvittiin:** juuri siinä askeleessa, jossa kerroimme epäyhtälön luvulla $(1+x)$. Jos olisi $x < -1$, niin $1+x < 0$, ja negatiivisella luvulla kertominen **kääntäisi** epäyhtälön suunnan — koko todistus romahtaisi. (Ja väite todella on epätosi ilman ehtoa: esim. $x = -3$, $n = 2$ antaa $(1-3)^2 = 4$, mutta $1 + 2(-3) = -5$; tässä $4 \geq -5$ sattuu pätemään, mutta yleistä takuuta ei ole.)
 
 ---
 
