@@ -9,6 +9,11 @@ nav = [
   { "Osa I: Perustukset" = [
       { "1. Todistuksen taito" = "01-todistuksen-taito.md" },
       { "2. Joukot ja funktiot" = "02-joukot-ja-funktiot.md" },
+      { "3. Induktio ja rekursio" = "03-induktio-ja-rekursio.md" },
+  ]},
+  { "Osa II: Luvut" = [
+      { "4. Luvuista" = "04-luvuista.md" },
+      { "5. Reaaliluvut ja täydellisyys" = "05-reaaliluvut-ja-taydellisyys.md" },
   ]},
 ]
 

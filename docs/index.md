@@ -21,12 +21,12 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 
 1. Todistuksen taito ✓
 2. Joukot ja funktiot ✓
-3. Induktio ja rekursio *(tulossa)*
+3. Induktio ja rekursio ✓
 
 **Osa II — Luvut**
 
-4. Luonnollisista luvuista rationaalilukuihin *(tulossa)*
-5. Reaaliluvut ja täydellisyys *(tulossa)*
+4. Luvuista: ℕ, ℤ, ℚ ✓
+5. Reaaliluvut ja täydellisyys ✓
 6. Irrationaalisuus ja transsendenttisuus *(tulossa)*
 7. Kompleksiluvut *(tulossa)*
 
