@@ -15,6 +15,11 @@ nav = [
       { "4. Luvuista" = "04-luvuista.md" },
       { "5. Reaaliluvut ja täydellisyys" = "05-reaaliluvut-ja-taydellisyys.md" },
   ]},
+  { "Osa III: Äärettömyys ja analyysi" = [
+      { "8. Jonot ja raja-arvot" = "08-jonot-ja-raja-arvot.md" },
+      { "9. Sarjat ja suppeneminen" = "09-sarjat-ja-suppeneminen.md" },
+      { "10. Jatkuvuus" = "10-jatkuvuus.md" },
+  ]},
   { "Osa IV: Algebra" = [
       { "14. Ryhmät" = "14-ryhmat.md" },
       { "15. Renkaat ja kunnat" = "15-renkaat-ja-kunnat.md" },

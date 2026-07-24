@@ -32,9 +32,9 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 
 **Osa III — Äärettömyys ja analyysi**
 
-8. Jonot ja raja-arvot *(tulossa)*
-9. Sarjat ja suppeneminen *(tulossa)*
-10. Jatkuvuus *(tulossa)*
+8. Jonot ja raja-arvot ✓
+9. Sarjat ja suppeneminen ✓
+10. Jatkuvuus ✓
 11. Derivaatta *(tulossa)*
 12. Integraali *(tulossa)*
 13. Taylorin sarjat *(tulossa)*
