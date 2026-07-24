@@ -15,6 +15,11 @@ nav = [
       { "4. Luvuista" = "04-luvuista.md" },
       { "5. Reaaliluvut ja täydellisyys" = "05-reaaliluvut-ja-taydellisyys.md" },
   ]},
+  { "Osa IV: Algebra" = [
+      { "14. Ryhmät" = "14-ryhmat.md" },
+      { "15. Renkaat ja kunnat" = "15-renkaat-ja-kunnat.md" },
+      { "16. Polynomit" = "16-polynomit.md" },
+  ]},
 ]
 
 extra_javascript = [

@@ -41,9 +41,9 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 
 **Osa IV — Algebra**
 
-14. Polynomit *(tulossa)*
-15. Ryhmät *(tulossa)*
-16. Renkaat ja kunnat *(tulossa)*
+14. Ryhmät ✓
+15. Renkaat ja kunnat ✓
+16. Polynomit ✓
 
 **Osa V — Lukuteoria**
 
