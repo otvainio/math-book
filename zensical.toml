@@ -19,6 +19,9 @@ nav = [
       { "8. Jonot ja raja-arvot" = "08-jonot-ja-raja-arvot.md" },
       { "9. Sarjat ja suppeneminen" = "09-sarjat-ja-suppeneminen.md" },
       { "10. Jatkuvuus" = "10-jatkuvuus.md" },
+      { "11. Derivaatta" = "11-derivaatta.md" },
+      { "12. Integraali" = "12-integraali.md" },
+      { "13. Taylorin sarjat" = "13-taylorin-sarjat.md" },
   ]},
   { "Osa IV: Algebra" = [
       { "14. Ryhmät" = "14-ryhmat.md" },

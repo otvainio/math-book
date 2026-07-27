@@ -35,9 +35,9 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 8. Jonot ja raja-arvot ✓
 9. Sarjat ja suppeneminen ✓
 10. Jatkuvuus ✓
-11. Derivaatta *(tulossa)*
-12. Integraali *(tulossa)*
-13. Taylorin sarjat *(tulossa)*
+11. Derivaatta ✓
+12. Integraali ✓
+13. Taylorin sarjat ✓
 
 **Osa IV — Algebra**
 
