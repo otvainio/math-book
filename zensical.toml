@@ -28,6 +28,11 @@ nav = [
       { "15. Renkaat ja kunnat" = "15-renkaat-ja-kunnat.md" },
       { "16. Polynomit" = "16-polynomit.md" },
   ]},
+  { "Osa V: Lukuteoria" = [
+      { "17. Jaollisuus ja alkuluvut" = "17-jaollisuus-ja-alkuluvut.md" },
+      { "18. Kongruenssit" = "18-kongruenssit.md" },
+      { "19. Zeta-funktio ja alkuluvut" = "19-zeta-ja-alkuluvut.md" },
+  ]},
 ]
 
 extra_javascript = [

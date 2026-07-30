@@ -47,9 +47,9 @@ Kirja on kirjoitettu lukijalle, joka osaa jo derivoida ja integroida, tuntee sar
 
 **Osa V — Lukuteoria**
 
-17. Jaollisuus ja alkuluvut *(tulossa)*
-18. Kongruenssit *(tulossa)*
-19. Zeta-funktio ja alkulukujen jakauma *(tulossa)*
+17. Jaollisuus ja alkuluvut ✓
+18. Kongruenssit ✓
+19. Zeta-funktio ja alkulukujen jakauma ✓
 
 **Osa VI — Geometria ja topologia**
 
